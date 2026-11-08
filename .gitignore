@@ -1,8 +1,25 @@
-@"
+# Python
 .venv/
 venv/
 __pycache__/
-*.pyc
-.env
+*.py[cod]
 .pytest_cache/
-"@ | Out-File -Encoding utf8 .gitignore
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.bak
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
