@@ -114,16 +114,23 @@ The current test suite covers monthly/yearly date calculations, month-end and le
 
 Use **Monitor Now** on the dashboard or **Refresh reminders** on the Reminders page to recalculate statuses and create notification-history entries. Duplicate notification types for the same policy and due date are prevented by a database uniqueness constraint.
 
-## Screenshots and demo
+## Application screenshots
 
-Application screenshots and a short screen-recording GIF will be added to the [screenshots folder](screenshots/README.md). Only genuine captures of the running application should be placed there.
+Here are screenshots of the application interface:
 
-Suggested captures:
-1. Dashboard overview
-2. Add Policy form
-3. All Policies list
-4. Reminders page
-5. Lapsed Policies page
+### Dashboard
+![Insurance Premium Notifier dashboard](screenshots/dashboard.png)
+
+### All Policies
+![All policies page](<screenshots/all policies.png>)
+
+### Reminders
+![Reminders page](screenshots/reminders.png)
+
+### Lapsed Policies
+![Lapsed policies page](<screenshots/lapsed policies.png>)
+
+The screenshot files are stored in the [screenshots folder](screenshots/README.md). A capture of the Add Policy form can be added there as well.
 
 For a short demo GIF, record a quick walkthrough showing the dashboard, adding a sample policy, and refreshing reminders. Do not include real customer contact details or policy numbers.
 
