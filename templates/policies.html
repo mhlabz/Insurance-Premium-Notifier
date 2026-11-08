@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="pagehead"><div><p class="eyebrow">POLICY MANAGEMENT</p><h1>{{ heading }}</h1><p class="muted">Review and manage registered insurance policies.</p></div><a class="button" href="{{ url_for('create_policy') }}">+ Add Policy</a></div><section class="panel">{% include '_policy_table.html' %}</section>{% endblock %}
